@@ -6,7 +6,7 @@ Stable Network | No Governance Fee | No Premine | No BS
 
 More information on the project can be found on the [website](https://xwp.one) and in the [github](https://github.com/swap-dev/). Swap is an open source project, and totally driven by communities. We encourage people to offer PR to support a non-premine project. 
 <p align="center">
- <img src="https://raw.githubusercontent.com/swap-dev/swap-electron-gui-wallet/v3.0.1/src-electron/icons/mrcuug.PNG" width="600">
+ <img src="https://raw.githubusercontent.com/swap-dev/swap-electron-gui-wallet/v3.0.1/src-electron/icons/mrcuug.png" width="600">
 </p>
 
 ### About this project
