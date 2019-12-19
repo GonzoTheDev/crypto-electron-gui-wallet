@@ -1,7 +1,8 @@
 # Swap Electron GUI Wallet
 
 ### Introduction
-Swap uses Cryptonote blockchain + Cuckaroo29s POW
+Swap uses Cryptonote Privacy Blockchain + Cuckaroo29s (Proof of Work)
+
 Stable Network | No Governance Fee | No Premine | No BS
 
 More information on the project can be found on the [website](https://xwp.one) and in the [github](https://github.com/swap-dev/). Swap is an open source project, and totally driven by communities. We encourage people to offer PR to support a non-premine project. 
@@ -23,7 +24,7 @@ npm install -g quasar-cli
 git clone https://github.com/swap-dev/swap-electron-gui-wallet
 cd swap-electron-gui-wallet
 cp path_to_swapd_binaries/swapd bin/
-cp path_to_swapd_binaries/swapd-wallet-rpc bin/
+cp path_to_swapd_binaries/swap-wallet-rpc bin/
 npm install
 ```
 
