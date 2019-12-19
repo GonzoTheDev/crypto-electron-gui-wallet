@@ -41,10 +41,6 @@ export default {
                 {label: this.$t("strings.transactions.types.incoming"), value: "in"},
                 {label: this.$t("strings.transactions.types.outgoing"), value: "out"},
                 {label: this.$t("strings.transactions.types.pending"), value: "all_pending"},
-                {label: this.$t("strings.transactions.types.miner"), value: "miner"},
-                {label: this.$t("strings.transactions.types.serviceNode"), value: "snode"},
-                {label: this.$t("strings.transactions.types.governance"), value: "gov"},
-                {label: this.$t("strings.transactions.types.stake"), value: "stake"},
                 {label: this.$t("strings.transactions.types.failed"), value: "failed"},
             ]
 
