@@ -37,7 +37,7 @@
                     <template v-if="wallet.refresh_type=='date'">
                         <q-datetime v-model="wallet.refresh_start_date" type="date"
                                     float-label="Restore from date"
-                                    modal :min="1492486495000" :max="Date.now()"
+                                    modal :min="1542359163000" :max="Date.now()"
                                     :dark="theme=='dark'"
                                     />
                     </template>
@@ -100,7 +100,7 @@ export default {
                 viewkey: "",
                 refresh_type: "date",
                 refresh_start_height: 0,
-                refresh_start_date: 1492486495000, // timestamp of block 1
+                refresh_start_date: 1542359163000, // timestamp of block 1
                 password: "",
                 password_confirm: ""
             },

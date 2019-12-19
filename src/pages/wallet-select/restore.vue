@@ -27,7 +27,7 @@
             <div class="col">
                 <LokiField v-if="wallet.refresh_type=='date'" :label="$t('fieldLabels.restoreFromDate')">
                     <q-datetime v-model="wallet.refresh_start_date" type="date"
-                                modal :min="1525305600000" :max="Date.now()"
+                                modal :min="1542359163000" :max="Date.now()"
                                 :dark="theme=='dark'"
                                 hide-underline
                                 />
@@ -106,7 +106,7 @@ export default {
                 seed: "",
                 refresh_type: "date",
                 refresh_start_height: 0,
-                refresh_start_date: 1525305600000, // timestamp of block 1
+                refresh_start_date: 1542359163000, // timestamp of block 1
                 password: "",
                 password_confirm: ""
             },
