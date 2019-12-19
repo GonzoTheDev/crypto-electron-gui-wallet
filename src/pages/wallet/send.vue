@@ -54,17 +54,7 @@
                 </LokiField>
             </div>
 
-            <!-- Payment ID -->
-            <div class="col q-mt-sm">
-                <LokiField :label="$t('fieldLabels.paymentId')" :error="$v.newTx.payment_id.$error" optional>
-                     <q-input v-model.trim="newTx.payment_id"
-                        :dark="theme=='dark'"
-                        @blur="$v.newTx.payment_id.$touch"
-                        :placeholder="$t('placeholders.hexCharacters', { count: '16 or 64' })"
-                        hide-underline
-                    />
-                </LokiField>
-            </div>
+            <!-- Payment ID tab disabled due to phased out in monero -->
 
             <!-- Notes -->
             <div class="col q-mt-sm">
