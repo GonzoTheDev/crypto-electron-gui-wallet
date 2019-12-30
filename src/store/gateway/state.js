@@ -95,7 +95,7 @@ export default {
             is_ready: false,
             outgoing_connections_count: 0,
             status: "OK",
-            target: 240,
+            target: 15,
             target_height: 0,
             testnet: false,
             top_block_hash: null,

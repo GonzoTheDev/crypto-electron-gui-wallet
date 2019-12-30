@@ -1950,7 +1950,7 @@ var swapConfig = {
     coinSymbol: 'XWP',
     coinName: 'Swap',
     coinUriPrefix: 'fh:',
-    addressPrefix: 97,
+    addressPrefix: 0x2867
 };
 
 var cnUtilGen = function(initConfig) {
