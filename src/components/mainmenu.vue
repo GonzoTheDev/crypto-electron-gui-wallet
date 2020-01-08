@@ -48,7 +48,7 @@
                     <a @click="openExternal('https://t.me/swapxwp')" href="#">Telegram</a> -
                     <a @click="openExternal('https://discord.gg/Eun5FHp')" href="#">Discord</a> -
                     <a @click="openExternal('https://www.reddit.com/r/SwapProject')" href="#">Reddit</a> -
-                    <a @click="openExternal('https://github.com/reeyon/swap-electron-gui-wallet')" href="#">Github</a>
+                    <a @click="openExternal('https://github.com/swap-dev/swap-electron-gui-wallet')" href="#">Github</a>
                 </p>
             </div>
 

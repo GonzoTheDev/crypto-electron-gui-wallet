@@ -1949,7 +1949,7 @@ var swapConfig = {
     coinUnitPlaces: 12,
     coinSymbol: 'XWP',
     coinName: 'Swap',
-    coinUriPrefix: 'fh:',
+    coinUriPrefix: 'swap:',
     addressPrefix: 0x2867
 };
 
