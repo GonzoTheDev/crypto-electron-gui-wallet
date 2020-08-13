@@ -177,7 +177,7 @@ module.exports = function (ctx) {
 
                 appId: "com.swap-dev.electron-wallet",
                 productName: "Swap Electron Wallet",
-                copyright: "Copyright © 2019 Swap Project, 2018-2019 Loki Project, 2018 Ryo Currency Project",
+                copyright: "Copyright © 2018-2020 Swap Project, 2018-2019 Loki Project, 2018 Ryo Currency Project",
                 afterSign: "build/notarize.js",
 
                 // directories: {

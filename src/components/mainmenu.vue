@@ -33,9 +33,9 @@
 
             <img class="q-mb-md" src="statics/swap.svg" height="42" />
 
-            <p class="q-my-sm">Wallet Version: v{{version}}</p>
-            <p class="q-my-sm">Swapd Version: v3.1.0 Greater Roadrunner</p>
-            <p class="q-my-sm">Copyright (c) 2020, Swap Project</p>
+            <p class="q-my-sm">Wallet version: v{{ version }}</p>
+            <p class="q-my-sm">Daemon version: v{{ daemonVersion }}</p>
+            <p class="q-my-sm">Copyright (c) 2018-2020, Swap Project</p>
             <p class="q-my-sm">Copyright (c) 2018-2019, Loki Project</p>
             <p class="q-my-sm">Copyright (c) 2018, Ryo Currency Project</p>
             <p class="q-my-sm">All rights reserved.</p>
