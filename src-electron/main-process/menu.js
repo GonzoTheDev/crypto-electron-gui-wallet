@@ -35,7 +35,7 @@ let template = [
         submenu: [
             {
                 label: "Learn More",
-                click () { require("electron").shell.openExternal("https://xwp.one/") }
+                click () { require("electron").shell.openExternal("https://swap.foundation/") }
             }
         ]
     }
