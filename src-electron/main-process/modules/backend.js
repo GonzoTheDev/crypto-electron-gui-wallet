@@ -60,7 +60,7 @@ export class Backend {
         const daemons = {
             mainnet: {
                 ...daemon,
-                remote_host: "autonode.xwp.one",
+                remote_host: "autonode.swap.foundation",
                 remote_port: 19950
             },
             stagenet: {
@@ -104,7 +104,7 @@ export class Backend {
 
         this.remotes = [
             {
-                host: "autonode.xwp.fyi",
+                host: "autonode.swap.foundation",
                 port: "19950"
             }
         ]
