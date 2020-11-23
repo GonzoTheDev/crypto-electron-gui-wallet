@@ -42,7 +42,7 @@
 
             <div class="q-mt-md q-mb-lg external-links">
                 <p>
-                    <a @click="openExternal('https://xwp.one/')" href="#">https://xwp.one/</a>
+                    <a @click="openExternal('https://swap.foundation/')" href="#">https://swap.foundation/</a>
                 </p>
                 <p>
                     <a @click="openExternal('https://t.me/swapxwp')" href="#">Telegram</a> -
