@@ -34,7 +34,7 @@
             <img class="q-mb-md" src="statics/swap.svg" height="42" />
 
             <p class="q-my-sm">Wallet version: v{{ version }}</p>
-            <p class="q-my-sm">Daemon version: v{{ daemonVersion }}</p>
+            <p class="q-my-sm">Daemon version: {{ daemonVersion }}</p>
             <p class="q-my-sm">Copyright (c) 2018-2020, Swap Project</p>
             <p class="q-my-sm">Copyright (c) 2018-2019, Loki Project</p>
             <p class="q-my-sm">Copyright (c) 2018, Ryo Currency Project</p>
@@ -80,7 +80,7 @@ export default {
         isRPCSyncing: state => state.gateway.wallet.isRPCSyncing,
         daemon: state => state.gateway.daemon,
         daemonVersion (state) {
-            return this.daemon.info.version || 'N/A'
+            return "v" + this.daemon.info.version || 'N/A'
         }
     }),
     data() {

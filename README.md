@@ -19,7 +19,7 @@ This is the new electron GUI for Swap. It is open source and completely free to 
 
 #### Commands
 ```shell
-nvm use 11.9.0
+nvm use 14
 npm install -g quasar-cli
 git clone https://github.com/swap-dev/swap-electron-gui-wallet
 cd swap-electron-gui-wallet
