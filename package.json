@@ -1,6 +1,6 @@
 {
   "name": "swap-electron-wallet",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "description": "Modern GUI interface for Swap Currency",
   "productName": "Swap Electron Wallet",
   "cordovaId": "com.swap.wallet",
