@@ -1,9 +1,13 @@
 # Crypto Electron GUI Wallet
 
-### Introduction
-Cryptocoin uses Cryptonote Privacy Blockchain + Cuckaroo29s (Proof of Work)
+![Logo](https://raw.githubusercontent.com/GonzoTheDev/cryptocoin-gui/master/images/appicons/256x256.png)
 
-Stable Network | No Governance Fee | No Premine | No BS
+# CryptoCoin Introduction
+
+Copyright (c) 2021 The CryptoCoin Project.   
+Crypto is based on [Monero](README_original.md) and is forked from [Swap](https://github.com/swap-dev/swap).
+
+![Build-Linux](https://github.com/swap-dev/swap/workflows/Build-Linux/badge.svg)
 
 More information on the project can be found on the [website](https://crypt-o-coin.cash) and in the [github](https://github.com/GonzoTheDev/). Cryptocoin is an open source project, and totally driven by communities. We encourage people to offer PR to support a non-premine project. 
 
