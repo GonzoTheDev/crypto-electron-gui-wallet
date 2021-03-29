@@ -2,7 +2,7 @@
 
 ![Logo](https://raw.githubusercontent.com/GonzoTheDev/cryptocoin-gui/master/images/appicons/256x256.png)
 
-# CryptoCoin Introduction
+### CryptoCoin Introduction
 
 Copyright (c) 2021 The CryptoCoin Project.   
 Crypto is based on [Monero](README_original.md) and is forked from [Swap](https://github.com/swap-dev/swap).
