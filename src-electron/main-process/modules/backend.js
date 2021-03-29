@@ -234,7 +234,7 @@ export class Backend {
             }
 
             if (path) {
-                const baseUrl = net_type === "testnet" ? "https://explorer-test.xwp.one" : "https://explorer.xwp.one"
+                const baseUrl = net_type === "testnet" ? "https://explorer-test.crypt-o-coin.cash" : "https://explorer.crypt-o-coin.cash"
                 const url = `${baseUrl}/${path}/`
                 require("electron").shell.openExternal(url + params.id)
             }

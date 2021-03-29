@@ -1,6 +1,6 @@
 <template>
 <span>
-    {{ value }} XWP
+    {{ value }} CRYPTO
 </span>
 </template>
 
