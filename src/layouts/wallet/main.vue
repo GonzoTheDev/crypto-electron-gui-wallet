@@ -4,7 +4,7 @@
         <main-menu />
         <q-toolbar-title>
             <div class="flex items-center justify-center" style="margin-top:7px">
-                <img src="statics/swap.svg" height="32">
+                <img src="statics/cryptocoin.png" height="32">
             </div>
         </q-toolbar-title>
     </q-layout-header>

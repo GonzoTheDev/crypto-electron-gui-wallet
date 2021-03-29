@@ -25,11 +25,11 @@ export class Backend {
 
     init (config) {
         if (os.platform() === "win32") {
-            this.config_dir = "C:\\ProgramData\\swap"
-            this.wallet_dir = `${os.homedir()}\\Documents\\Swap`
+            this.config_dir = "C:\\ProgramData\\cryptocoin"
+            this.wallet_dir = `${os.homedir()}\\Documents\\Cryptocoin`
         } else {
-            this.config_dir = path.join(os.homedir(), ".swap")
-            this.wallet_dir = path.join(os.homedir(), "swap")
+            this.config_dir = path.join(os.homedir(), ".cryptocoin")
+            this.wallet_dir = path.join(os.homedir(), "cryptocoin")
         }
 
         if (!fs.existsSync(this.config_dir)) {
@@ -45,11 +45,11 @@ export class Backend {
         const daemon = {
             type: "remote",
             p2p_bind_ip: "0.0.0.0",
-            p2p_bind_port: 19949,
+            p2p_bind_port: 11111,
             rpc_bind_ip: "127.0.0.1",
-            rpc_bind_port: 19950,
+            rpc_bind_port: 22222,
             zmq_rpc_bind_ip: "127.0.0.1",
-            zmq_rpc_bind_port: 19951,
+            zmq_rpc_bind_port: 33333,
             out_peers: -1,
             in_peers: -1,
             limit_rate_up: -1,
@@ -60,22 +60,22 @@ export class Backend {
         const daemons = {
             mainnet: {
                 ...daemon,
-                remote_host: "autonode.swap.foundation",
-                remote_port: 19950
+                remote_host: "node1.crypt-o-coin.cash",
+                remote_port: 22222
             },
             stagenet: {
                 ...daemon,
                 type: "local",
-                p2p_bind_port: 39949,
-                rpc_bind_port: 39950,
-                zmq_rpc_bind_port: 39951
+                p2p_bind_port: 11113,
+                rpc_bind_port: 22224,
+                zmq_rpc_bind_port: 33335
             },
             testnet: {
                 ...daemon,
                 type: "local",
-                p2p_bind_port: 29949,
-                rpc_bind_port: 29950,
-                zmq_rpc_bind_port: 29951
+                p2p_bind_port: 11112,
+                rpc_bind_port: 22223,
+                zmq_rpc_bind_port: 33334
             }
         }
 
@@ -104,8 +104,8 @@ export class Backend {
 
         this.remotes = [
             {
-                host: "autonode.swap.foundation",
-                port: "19950"
+                host: "node1.crypt-o-coin.cash",
+                port: "22222"
             }
         ]
 

@@ -16,7 +16,7 @@ exports.default = async function notarizing (context) {
     const appName = context.packager.appInfo.productFilename
 
     return notarize({
-        appBundleId: "com.swap-dev.electron-wallet",
+        appBundleId: "com.cryptocoin.electron-wallet",
         appPath: `${appOutDir}/${appName}.app`,
         appleId: process.env.ELECTRON_WALLET_APPLE_ID,
         appleIdPassword: process.env.ELECTRON_WALLET_APP_PASSWORD,

@@ -28,18 +28,18 @@ export class Daemon {
     checkVersion () {
         return new Promise((resolve, reject) => {
             if (process.platform === "win32") {
-                let swapd_path = path.join(__ryo_bin, "swapd.exe")
-                let swapd_version_cmd = `"${swapd_path}" --version`
-                if (!fs.existsSync(swapd_path)) { resolve(false) }
-                child_process.exec(swapd_version_cmd, (error, stdout, stderr) => {
+                let cryptocoind_path = path.join(__ryo_bin, "cryptocoind.exe")
+                let cryptocoind_version_cmd = `"${cryptocoind_path}" --version`
+                if (!fs.existsSync(cryptocoind_path)) { resolve(false) }
+                child_process.exec(cryptocoind_version_cmd, (error, stdout, stderr) => {
                     if (error) { resolve(false) }
                     resolve(stdout)
                 })
             } else {
-                let swapd_path = path.join(__ryo_bin, "swapd")
-                let swapd_version_cmd = `"${swapd_path}" --version`
-                if (!fs.existsSync(swapd_path)) { resolve(false) }
-                child_process.exec(swapd_version_cmd, { detached: true }, (error, stdout, stderr) => {
+                let cryptocoind_path = path.join(__ryo_bin, "cryptocoind")
+                let cryptocoind_version_cmd = `"${cryptocoind_path}" --version`
+                if (!fs.existsSync(cryptocoind_path)) { resolve(false) }
+                child_process.exec(cryptocoind_version_cmd, { detached: true }, (error, stdout, stderr) => {
                     if (error) { resolve(false) }
                     resolve(stdout)
                 })
@@ -121,7 +121,7 @@ export class Daemon {
                 args.push("--stagenet")
             }
 
-            args.push("--log-file", path.join(dirs[net_type], "logs", "swapd.log"))
+            args.push("--log-file", path.join(dirs[net_type], "logs", "cryptocoind.log"))
 
             if (daemon.rpc_bind_ip !== "127.0.0.1") { args.push("--confirm-external-bind") }
 
@@ -141,9 +141,9 @@ export class Daemon {
             portscanner.checkPortStatus(this.port, this.hostname).catch(e => "closed").then(status => {
                 if (status === "closed") {
                     if (process.platform === "win32") {
-                        this.daemonProcess = child_process.spawn(path.join(__ryo_bin, "swapd.exe"), args)
+                        this.daemonProcess = child_process.spawn(path.join(__ryo_bin, "cryptocoind.exe"), args)
                     } else {
-                        this.daemonProcess = child_process.spawn(path.join(__ryo_bin, "swapd"), args, {
+                        this.daemonProcess = child_process.spawn(path.join(__ryo_bin, "cryptocoind"), args, {
                             detached: true
                         })
                     }

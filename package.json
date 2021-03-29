@@ -1,10 +1,10 @@
 {
-  "name": "swap-electron-wallet",
+  "name": "cryptocoin-electron-wallet",
   "version": "3.2.1",
-  "description": "Modern GUI interface for Swap Currency",
-  "productName": "Swap Electron Wallet",
-  "cordovaId": "com.swap.wallet",
-  "author": "Swapdev",
+  "description": "Modern GUI interface for Crypto Currency",
+  "productName": "Cryptocoin Electron Wallet",
+  "cordovaId": "com.cryptocoin.wallet",
+  "author": "Gonzo",
   "private": true,
   "scripts": {
     "dev": "quasar dev -m electron -t mat",

@@ -1945,12 +1945,12 @@ return{_strlen:lb,_ge_mul8:Va,_keccak:db,_ge_scalarmult:Ta,_ge_fromfe_frombytes_
 
 
 
-var swapConfig = {
+var cryptoConfig = {
     coinUnitPlaces: 12,
-    coinSymbol: 'XWP',
-    coinName: 'Swap',
-    coinUriPrefix: 'swap:',
-    addressPrefix: 0x2867
+    coinSymbol: 'CRYPTO',
+    coinName: 'Cryptocoin',
+    coinUriPrefix: 'crypto:',
+    addressPrefix: 0xe1f54
 };
 
 var cnUtilGen = function(initConfig) {
@@ -2389,7 +2389,7 @@ var cnUtilGen = function(initConfig) {
 
     return this;
 };
-var cnUtil = cnUtilGen(swapConfig);
+var cnUtil = cnUtilGen(cryptoConfig);
 /*
  mnemonic.js : Converts between 4-byte aligned strings and a human-readable
  sequence of words. Uses 1626 common words taken from wikipedia article:

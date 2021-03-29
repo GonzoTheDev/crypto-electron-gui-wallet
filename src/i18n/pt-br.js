@@ -234,7 +234,7 @@ export default {
         copyViewKey: "Copiar chave de visualização",
         createNewWallet: "Criar nova carteira",
         deleteWallet: "Apagar carteira",
-        exit: "Saír da Carteira GUI Swap",
+        exit: "Saír da Carteira GUI Cryptocoin",
         importOldGUIWallet: "Importar carteiras da antiga carteira GUI",
         manageKeyImages: "Administrar Imagens de Chave",
         openWallet: "Abrir carteira",
@@ -319,7 +319,7 @@ export default {
         warnings: {
             noKeyImageExport: "Nenhuma chave de imagem encontrada para exportar",
             usingLocalNode: "Não foi possível aceder ao nódulo remoto, mudando para nódulo local apenas",
-            usingRemoteNode: "swapd não encontrado, utilizando nódulo remoto"
+            usingRemoteNode: "cryptocoind não encontrado, utilizando nódulo remoto"
         }
     },
     placeholders: {

@@ -11,9 +11,9 @@
                    @click="cancel()" />
         </template>
 
-        <q-toolbar-title v-if="page_title=='Swap'">
+        <q-toolbar-title v-if="page_title=='Cryptocoin'">
             <div class="flex items-center justify-center" style="margin-top:7px">
-                <img src="statics/swap.svg" height="32">
+                <img src="statics/cryptocoin.png" height="32">
             </div>
         </q-toolbar-title>
         <q-toolbar-title v-else>
@@ -66,7 +66,7 @@ export default {
 
                 default:
                 case "wallet-select":
-                    return "Swap"
+                    return "Cryptocoin"
             }
         }
     },

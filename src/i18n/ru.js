@@ -234,7 +234,7 @@ export default {
         copyViewKey: "Копировать Ключ Просмотра",
         createNewWallet: "Создать новый кошелек",
         deleteWallet: "Удалить Кошелек",
-        exit: "Закрыть Кошелек Swap",
+        exit: "Закрыть Кошелек Cryptocoin",
         importOldGUIWallet: "Импортировать кошельки из старого GUI",
         manageKeyImages: "Управлять Ключевыми Образами",
         openWallet: "Открыть кошелек",
@@ -319,7 +319,7 @@ export default {
         warnings: {
             noKeyImageExport: "Не найдено ключевых образов для экспорта",
             usingLocalNode: "Не удалось подключиться к удаленной ноде, переключаемся на локальную ноду",
-            usingRemoteNode: "Не найден файл swapd, используется удаленная нода"
+            usingRemoteNode: "Не найден файл cryptocoind, используется удаленная нода"
         }
     },
     placeholders: {

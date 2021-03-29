@@ -175,9 +175,9 @@ module.exports = function (ctx) {
             builder: {
                 // https://www.electron.build/configuration/configuration
 
-                appId: "com.swap-dev.electron-wallet",
-                productName: "Swap Electron Wallet",
-                copyright: "Copyright © 2018-2020 Swap Project, 2018-2019 Loki Project, 2018 Ryo Currency Project",
+                appId: "com.cryptocoin.electron-wallet",
+                productName: "Cryptocoin Electron Wallet",
+                copyright: "Copyright © 2021 Cryptocoin Project, Copyright © 2018-2020 Swap Project, 2018-2019 Loki Project, 2018 Ryo Currency Project",
                 afterSign: "build/notarize.js",
 
                 // directories: {

@@ -233,7 +233,7 @@ export default {
         copyViewKey: "View Key kopieren",
         createNewWallet: "Neue Wallet erstellen",
         deleteWallet: "Wallet löschen",
-        exit: "Swap GUI Wallet schliessen",
+        exit: "Cryptocoin GUI Wallet schliessen",
         importOldGUIWallet: "Wallets von alter GUI importieren",
         manageKeyImages: "Key Images verwalten",
         openWallet: "Wallet öffnen",
@@ -318,7 +318,7 @@ export default {
         warnings: {
             noKeyImageExport: "Keine Key Images zum Exportieren gefunden",
             usingLocalNode: "Zugang zur Remote Node nicht möglich, wechsle zur lokalen Node",
-            usingRemoteNode: "lswapd nicht gefunden, benutze eine Remote Node"
+            usingRemoteNode: "lcryptocoind nicht gefunden, benutze eine Remote Node"
         }
     },
     placeholders: {

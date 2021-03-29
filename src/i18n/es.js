@@ -234,7 +234,7 @@ export default {
         copyViewKey: "Copiar clave de visualización",
         createNewWallet: "Crear nuevo monedero",
         deleteWallet: "Eliminar monedero",
-        exit: "Cerrar la interfaz del monedero Swap",
+        exit: "Cerrar la interfaz del monedero Cryptocoin",
         importOldGUIWallet: "Importar monedero de una interfaz gráfica antigua",
         manageKeyImages: "Administrar Imágenes de Clave",
         openWallet: "Abrir monedero",
@@ -319,7 +319,7 @@ export default {
         warnings: {
             noKeyImageExport: "No se han encontrado claves para exportar",
             usingLocalNode: "No se ha podido acceder al nodo remoto, volviendo al modo local",
-            usingRemoteNode: "swapd no encontrado, utilizando nodo remoto"
+            usingRemoteNode: "cryptocoind no encontrado, utilizando nodo remoto"
         }
     },
     placeholders: {
@@ -412,7 +412,7 @@ export default {
         saveToAddressBook: "Guardar en la libreta de direcciones",
         seedWords: "Palabras semilla",
         selectLanguage: "Escoja un idioma",
-        serviceNodeRegistrationDescription: "Introduzca la orden {registerCommand} generada por el servicio (swapd) que se está intentado registrar como Nodo de Servicio usando la instrucción \"{prepareCommand}\"",
+        serviceNodeRegistrationDescription: "Introduzca la orden {registerCommand} generada por el servicio (cryptocoind) que se está intentado registrar como Nodo de Servicio usando la instrucción \"{prepareCommand}\"",
         spendKey: "Clave de gasto",
         startingDaemon: "Iniciando servicio",
         startingWallet: "Iniciando monedero",

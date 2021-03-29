@@ -6,7 +6,7 @@
         <q-step default :title="$t('titles.welcome')" class="first-step">
 
             <div class="welcome-container">
-                <img src="statics/swap.svg" height="100" class="q-mb-md">
+                <img src="statics/cryptocoin.png" height="100" class="q-mb-md">
                 <div>Wallet Version: v{{version}}</div>
                 <div>Deamon Version: v{{daemonVersion}}</div>
 

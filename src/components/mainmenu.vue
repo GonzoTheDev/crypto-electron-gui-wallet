@@ -31,10 +31,11 @@
     <q-modal minimized ref="aboutModal">
         <div class="about-modal">
 
-            <img class="q-mb-md" src="statics/swap.svg" height="42" />
+            <img class="q-mb-md" src="statics/cryptocoin.png" height="42" />
 
             <p class="q-my-sm">Wallet version: v{{ version }}</p>
             <p class="q-my-sm">Daemon version: {{ daemonVersion }}</p>
+            <p class="q-my-sm">Copyright (c) 2021, Cryptocoin Project</p> 
             <p class="q-my-sm">Copyright (c) 2018-2020, Swap Project</p>
             <p class="q-my-sm">Copyright (c) 2018-2019, Loki Project</p>
             <p class="q-my-sm">Copyright (c) 2018, Ryo Currency Project</p>
@@ -42,13 +43,13 @@
 
             <div class="q-mt-md q-mb-lg external-links">
                 <p>
-                    <a @click="openExternal('https://swap.foundation/')" href="#">https://swap.foundation/</a>
+                    <a @click="openExternal('https://crypt-o-coin.cash/')" href="#">https://crypt-o-coin.cash/</a>
                 </p>
                 <p>
-                    <a @click="openExternal('https://t.me/swapxwp')" href="#">Telegram</a> -
-                    <a @click="openExternal('https://discord.gg/Eun5FHp')" href="#">Discord</a> -
-                    <a @click="openExternal('https://www.reddit.com/r/SwapProject')" href="#">Reddit</a> -
-                    <a @click="openExternal('https://github.com/swap-dev/swap-electron-gui-wallet')" href="#">Github</a>
+                    <a @click="openExternal('https://t.me/crypto_coin_cash')" href="#">Telegram</a> -
+                    <a @click="openExternal('https://discord.gg/upPCtgcMJu')" href="#">Discord</a> -
+                    <a @click="openExternal('https://www.reddit.com/r/CryptoCoinProject')" href="#">Reddit</a> -
+                    <a @click="openExternal('https://github.com/GonzoTheDev/crypto-electron-gui-wallet')" href="#">Github</a>
                 </p>
             </div>
 
